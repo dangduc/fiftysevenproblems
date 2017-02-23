@@ -11,13 +11,13 @@ int main() {
   std::cout << "Enter a second number: ";
   std::cin >> second;
 
-  int f = stoi(first);
-  int s = stoi(second);
+  auto f = stoi(first);
+  auto s = stoi(second);
 
-  int sum = f + s;
-  int diff = f - s;
-  int prod = f * s;
-  int quot = f / s;
+  auto sum = f + s;
+  auto diff = f - s;
+  auto prod = f * s;
+  auto quot = f / s;
   std:: cout << std::to_string(f)
              << " + "
              << std::to_string(s)
